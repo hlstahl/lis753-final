@@ -1,0 +1,183 @@
+.container {
+  padding-top: 16px; 
+}
+
+body {
+  background-image: url("https://lh3.googleusercontent.com/_I7iPxaXI4gR-QpN01Bw-98O9wpwjk2g55FwNeCVkUKY1TYd47E3GnpfIe6aQmB99B4uTdIxkkydkGWlLzvEniaNR2PmEj50bRnrXwMiDhW73pyQK9gx990QgAQvV4LAhhqBWTnAIA=w1200");
+  font-family: 'Quicksand', sans-serif;
+  color: black;
+  padding: 1em; 
+}
+
+h1#site-title {
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: 3.5em; 
+  text-align: center; 
+}
+
+h2 {
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: 2.5em; 
+}
+
+h3 {
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: 2em; 
+}
+
+.signature {
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: 2em; 
+}
+
+.container.header {
+  background-color: white; 
+  opacity: 0.9;
+  margin-top: 2em; 
+  border-radius: 15px 15px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  padding: 1em; 
+  box-shadow: 0 -4px 4px 0 rgba(0, 0, 0, 0.2), 0 -6px 4px 0 rgba(0, 0, 0, 0.19);
+}
+
+.avatar {
+  background-color: white; 
+  opacity: 0.9;
+  border-radius: 0 0 15px 15px;
+  padding: 1em; 
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 4px 0 rgba(0, 0, 0, 0.19);
+}
+
+#profile {
+  border-radius: 50%; 
+}
+
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.nav li {
+  margin: 0.5em 1em;
+  padding: 0.5em; 1em;
+  background-color: black;
+  border-radius: 15px; 
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: 2em; 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.testimonials {
+  background-color: white;
+  opacity: 0.9;
+  font-family: 'Quicksand', sans-serif;
+  color: black;
+  padding: 1em; 
+  margin: 0.5em;
+  border-radius: 15px;   
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.review {
+  text-align: center;
+}
+
+.footer {
+  background-color: black; 
+  opacity: 0.9;
+  border-radius: 15px; 
+  padding: 1em;
+  color: #6ce236;
+  text-decoration: none;
+  text-align: center; 
+  font-family: 'Quicksand', sans-serif;
+  display: flex;
+  justify-content: space-around; 
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container.about {
+  background-color: white; 
+  border-radius: 15px; 
+}
+
+.container.about p {
+  font-family: 'Quicksand', sans-serif;
+  color: black;
+  padding: 0.5em 1em 0 1em;
+}
+
+.container.form {
+  background-color: white;
+  opacity: 0.9;
+  padding: 2em 4em; 
+  border-radius: 15px;   
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+label, form p, .commissions {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.25em;
+}
+
+form input, #comments, .radio {
+  border-color: #008cd3;
+  border-width: 3px;
+}
+
+.btn {
+  background-color: black;
+  color: #f9fc44;
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: 2em;
+}
+
+.btn-shop {
+  background-color: black;
+  color: #f9fc44;
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: 1.5em;
+}
+
+.container-fluid.shop {
+  background-color: white; 
+  border-radius: 15px; 
+  padding: 3em; 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card {
+  margin-top: 1em;
+  margin-bottom: 2em;
+  padding-top: 1em;
+  border-radius: 15px;   
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card.etc {
+  border-width: 2px;
+  border-color: #6ce236;
+}
+
+.card.quilts {
+  border-width: 2px;
+  border-color: #008cd3;
+}
+
+.card.paintings {
+  border-width: 2px;
+  border-color: #ff3377;
+}
